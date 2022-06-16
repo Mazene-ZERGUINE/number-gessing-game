@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+     <div id="app">
+
+   <h1>NUMBER GESSING GAME</h1>
+   <p>select a level of deficulty</p>
+   
+    <p id="level"></p>
+    <p id="gesses"></p>
+   <div id="selectbox">
+        <button class="btn" id="easy">easy</button>
+        <button class="btn" id="normal">normal</button>
+        <button class="btn" id="hard">hard</button>
+
+   </div>
+
+   <br>
+
+   <div>
+        <input type="text" id="gess" placeholder="your gess ?">
+          <br>
+          <br>
+        <button id="sub">submit</button>
+   </div>
+
+   <p id="result"></p>
     
+   <div id="popup" class="popup">
+    <p id="finalresult"></p>
+    <button id="newgame">new game</button>
+   </div>
+   </div>
 </body>
 <script src="app.js"></script>
 

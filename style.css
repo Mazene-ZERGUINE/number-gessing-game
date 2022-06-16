@@ -1,0 +1,104 @@
+.popup{
+    height: 150px;
+    width: 300px;
+    border: solid black 2px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    z-index: 1;
+    border-radius: 10;
+}
+
+.popup p 
+{
+    color: black;
+}
+
+#app{
+    height: 400px;
+    width: 800px;
+    border: solid 1px black;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: rgba(255,255,255,0.1) ; 
+    box-shadow: 15px 15px 25px 25px black;
+}
+#app h1 
+{
+    color: plum;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+#selectbox{
+    height: auto;
+    width: 308px;
+    border: 2px solid plum;
+    position: relative;
+    left: 31%;
+}
+.btn
+{
+    padding: 5px;
+    width: 100px;
+    border: none;
+    background-color: plum;
+    color: white;
+    font-size: 17px;
+    
+}
+
+input
+{
+    padding: 5px;
+    width: 200px ; 
+    border: plum solid 2px;
+    background-color: rgba(255,255,255,0.1) ; 
+    text-align: center;
+   
+}
+input::placeholder{
+    color: white;
+    font-size: 17px;
+}
+
+#sub
+{
+    background-color: rgba(255,255,255,0.1) ; 
+    height:30px;
+    width: 120px;
+    border: none;
+    border: plum solid 2px;
+    color: plum;
+}
+
+body
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,62,255,1) 52%, rgba(0,212,255,1) 100%);
+}
+
+.btn:hover
+{
+    background-color: white;
+    cursor: pointer;
+    color: plum;
+}
+
+#sub:hover{
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    font-size: 17px;
+}
